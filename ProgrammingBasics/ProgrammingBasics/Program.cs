@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace ProgrammingBasics
 {
@@ -30,7 +31,9 @@ namespace ProgrammingBasics
             //ForeachLoop();
             //DoWhileLoop();
             //NestedLoop();
-            Continue();
+            //Continue();
+
+            //ReadFileLines();
 
             // Wait for user to hit a key before quitting
             Console.WriteLine("Hit any key to quit");
@@ -410,5 +413,28 @@ namespace ProgrammingBasics
             }
         }
 
+        public static void ReadFileLines()
+        {
+            Console.WriteLine("*** READ FILE LINES ***");
+
+            // Make sure "using System.IO;" added at top of file
+            // Make sure "Copy to output" property set to "Always copy" for data.txt
+            string filePath = "data.txt";
+
+            // Check to see if the file exists
+            if (File.Exists(filePath))
+            {
+                // "using: statement means we don't need to explicitly close the file
+                using (StreamReader sr = File.OpenText(filePath))
+                {
+                    string line = "";
+                    // read lines in the file until no lines remain
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+        }
     }
 }
