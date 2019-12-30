@@ -23,7 +23,14 @@ namespace ProgrammingBasics
             //IfElseStatement();
             //IfElseIfStatement();
             //NestedIfStatement();
-            SwitchStatement();
+            //SwitchStatement();
+
+            //WhileLoop();
+            //ForLoop();
+            //ForeachLoop();
+            //DoWhileLoop();
+            //NestedLoop();
+            Continue();
 
             // Wait for user to hit a key before quitting
             Console.WriteLine("Hit any key to quit");
@@ -315,5 +322,93 @@ namespace ProgrammingBasics
                     break;
             }
         }
+
+        public static void WhileLoop()
+        {
+            Console.WriteLine("*** WHILE LOOP ***");
+
+            int x = 1;
+            while (x <= 5)
+            {
+                Console.WriteLine("x = " + x);
+                x++;
+            }
+        }
+
+        public static void ForLoop()
+        {
+            Console.WriteLine("*** FOR LOOP ***");
+
+            for (int i = 1; i < 6; i++)
+            {
+                Console.WriteLine("i = " + i);
+            }
+        }
+
+        public static void ForeachLoop()
+        {
+            Console.WriteLine("*** FOREACH LOOP ***");
+
+            string[] nameArray = { "Huskers", "Blue Jays", "Prairie Wolves", "Lopers", "Mavericks" };
+
+            foreach (var name in nameArray)
+            {
+                Console.WriteLine(name);
+            }
+        }
+
+        public static void DoWhileLoop()
+        {
+            Console.WriteLine("*** DO WHILE LOOP ***");
+
+            int x = 1;
+
+            do
+            {
+                x++;
+                Console.WriteLine("x = " + x); // runs even though x == 2
+            } while (x <= 1);
+        }
+
+        public static void InfiniteLoop()
+        {
+            Console.WriteLine("*** INFINITE LOOP ***");
+
+            int x = 1;
+            while (x <= 5)
+            {
+                Console.WriteLine("x = " + x); // Will always write "x = 1"
+            }
+        }
+
+        public static void NestedLoop()
+        {
+            Console.WriteLine("*** NESTED LOOP ***");
+
+            for (int i = 1; i < 4; i++)
+            {
+                Console.WriteLine("i = " + i);
+
+                for (int x = 1; x <= i; x++)
+                {
+                    Console.WriteLine("  x = " + x);
+                }
+            }
+        }
+
+        public static void Continue()
+        {
+            Console.WriteLine("*** CONTINUE ***");
+
+            for (int i = 1; i < 6; i++)
+            {
+                if ((i % 2) == 0) // skip even numbers
+                {
+                    continue;
+                }
+                Console.WriteLine("i = " + i);
+            }
+        }
+
     }
 }
