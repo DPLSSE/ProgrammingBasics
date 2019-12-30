@@ -30,7 +30,7 @@ namespace ProgrammingBasics
             //ForLoop();
             //ForeachLoop();
             //DoWhileLoop();
-            //NestedLoop();
+            NestedLoop();
             //Continue();
 
             //ReadFileLines();
@@ -388,13 +388,13 @@ namespace ProgrammingBasics
         {
             Console.WriteLine("*** NESTED LOOP ***");
 
-            for (int i = 1; i < 4; i++)
+            for (int outer = 1; outer < 4; outer++)
             {
-                Console.WriteLine("i = " + i);
+                Console.WriteLine("outer = " + outer);
 
-                for (int x = 1; x <= i; x++)
+                for (int inner = 1; inner <= outer; inner++)
                 {
-                    Console.WriteLine("  x = " + x);
+                    Console.WriteLine("  inner = " + inner);
                 }
             }
         }
