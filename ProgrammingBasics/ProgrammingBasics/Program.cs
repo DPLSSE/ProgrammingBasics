@@ -30,7 +30,7 @@ namespace ProgrammingBasics
             //ForLoop();
             //ForeachLoop();
             //DoWhileLoop();
-            NestedLoop();
+            //NestedLoop();
             //Continue();
 
             //ReadFileLines();
