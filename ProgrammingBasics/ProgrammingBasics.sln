@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingBasics", "ProgrammingBasics\ProgrammingBasics.csproj", "{607E8615-0D04-4DEC-8018-52F1800BD099}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{68A17828-42D7-46A6-8AEF-8F383EC8AAB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{FD461EFB-E9C0-4656-AF23-F0C18268E9D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingBasics", "ProgrammingBasics\ProgrammingBasics.csproj", "{D68E3108-1EFF-4085-B7BD-B632EBD082EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{607E8615-0D04-4DEC-8018-52F1800BD099}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{607E8615-0D04-4DEC-8018-52F1800BD099}.Debug|anycpu.Build.0 = Debug|anycpu
-		{607E8615-0D04-4DEC-8018-52F1800BD099}.Release|anycpu.ActiveCfg = Release|anycpu
-		{607E8615-0D04-4DEC-8018-52F1800BD099}.Release|anycpu.Build.0 = Release|anycpu
-		{FD461EFB-E9C0-4656-AF23-F0C18268E9D6}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{FD461EFB-E9C0-4656-AF23-F0C18268E9D6}.Debug|anycpu.Build.0 = Debug|anycpu
-		{FD461EFB-E9C0-4656-AF23-F0C18268E9D6}.Release|anycpu.ActiveCfg = Release|anycpu
-		{FD461EFB-E9C0-4656-AF23-F0C18268E9D6}.Release|anycpu.Build.0 = Release|anycpu
+		{68A17828-42D7-46A6-8AEF-8F383EC8AAB6}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{68A17828-42D7-46A6-8AEF-8F383EC8AAB6}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{68A17828-42D7-46A6-8AEF-8F383EC8AAB6}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{68A17828-42D7-46A6-8AEF-8F383EC8AAB6}.Release|anycpu.Build.0 = Release|Any CPU
+		{D68E3108-1EFF-4085-B7BD-B632EBD082EB}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{D68E3108-1EFF-4085-B7BD-B632EBD082EB}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{D68E3108-1EFF-4085-B7BD-B632EBD082EB}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{D68E3108-1EFF-4085-B7BD-B632EBD082EB}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

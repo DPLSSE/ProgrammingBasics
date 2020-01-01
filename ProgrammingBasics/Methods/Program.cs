@@ -2,7 +2,7 @@
 
 namespace Methods
 {
-    class MainClass
+    class Program
     {
         public static void Main(string[] args)
         {
@@ -11,7 +11,7 @@ namespace Methods
             Console.WriteLine("Press your favorite key");
             ConsoleKeyInfo keyInfo = Console.ReadKey(); // Returns the value of the pressed key
             WriteResult(keyInfo.Key.ToString());
-            
+
             Console.WriteLine("Type something and press return");
             string lineInfo = Console.ReadLine(); // Returns the line of text after hitting return
             WriteResult(lineInfo);
