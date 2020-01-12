@@ -1,9 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{68A17828-42D7-46A6-8AEF-8F383EC8AAB6}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{68A17828-42D7-46A6-8AEF-8F383EC8AAB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingBasics", "ProgrammingBasics\ProgrammingBasics.csproj", "{D68E3108-1EFF-4085-B7BD-B632EBD082EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingBasics", "ProgrammingBasics\ProgrammingBasics.csproj", "{D68E3108-1EFF-4085-B7BD-B632EBD082EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{F1FE1AA6-C06C-4BFD-A636-E8856E410F23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +22,15 @@ Global
 		{D68E3108-1EFF-4085-B7BD-B632EBD082EB}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{D68E3108-1EFF-4085-B7BD-B632EBD082EB}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{D68E3108-1EFF-4085-B7BD-B632EBD082EB}.Release|anycpu.Build.0 = Release|Any CPU
+		{F1FE1AA6-C06C-4BFD-A636-E8856E410F23}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{F1FE1AA6-C06C-4BFD-A636-E8856E410F23}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{F1FE1AA6-C06C-4BFD-A636-E8856E410F23}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{F1FE1AA6-C06C-4BFD-A636-E8856E410F23}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A852F4A8-759B-4E77-A3CA-3DC18C72DB83}
 	EndGlobalSection
 EndGlobal
