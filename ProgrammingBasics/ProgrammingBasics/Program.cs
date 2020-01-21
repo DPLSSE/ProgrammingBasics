@@ -104,6 +104,7 @@ namespace ProgrammingBasics
             int myInt10 = 10;
             int myInt13 = 13;
             int result;
+            decimal decResult;
 
             result = myInt1 + myInt5; // Result = 6
             Console.WriteLine(result);
@@ -116,6 +117,9 @@ namespace ProgrammingBasics
 
             result = myInt10 / myInt5; // Result = 2
             Console.WriteLine(result);
+            
+            decResult = myInt7 / myInt5; // Result = 1
+            Console.WriteLine(decResult);
 
             result = myInt13 % myInt7; // Result = 6
             Console.WriteLine(result);

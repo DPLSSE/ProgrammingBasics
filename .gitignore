@@ -350,3 +350,7 @@ MigrationBackup/
 .ionide/
 ProgrammingBasics/.DS_Store
 .DS_Store
+
+# Rider
+*.iml
+.idea/
