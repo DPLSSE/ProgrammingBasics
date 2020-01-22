@@ -11,6 +11,7 @@ namespace ProgrammingBasics
             //Variables();
             //Constants();
             //DataTypes();
+            //FloatingPointComparison();
 
             //ArithmeticOperations();
             //OrderOfOperations();
@@ -92,6 +93,36 @@ namespace ProgrammingBasics
             Console.WriteLine("myBoolean = " + myBoolean);
             Console.WriteLine("myChar = " + myChar);
             Console.WriteLine("myString = " + myString);
+        }
+
+        public static void FloatingPointComparison()
+        {
+            Console.WriteLine("*** DOUBLE APPROXIMATION ***");
+            double dblValue = .1;
+            double dblResult1 = dblValue * 10;
+            double dblResult2 = 0;
+            for (int ctr = 1; ctr <= 10; ctr++)
+                dblResult2 += dblValue;
+
+            // The example displays the following output:
+            //       .1 * 10:           1
+            //       .1 Added 10 times: 0.99999999999999989
+            Console.WriteLine(".1 * 10:           {0:R}", dblResult1);
+            Console.WriteLine(".1 Added 10 times: {0:R}", dblResult2);
+
+            Console.WriteLine("*** DECIMAL PRECISION ***");
+            decimal decValue = .1m;
+            decimal decResult1 = decValue * 10;
+            decimal decResult2 = 0;
+            for (int ctr = 1; ctr <= 10; ctr++)
+                decResult2 += decValue;
+
+            // The example displays the following output:
+            //       .1 * 10:           1
+            //       .1 Added 10 times: 1
+            Console.WriteLine(".1 * 10:           {0}", decResult1);
+            Console.WriteLine(".1 Added 10 times: {0}", decResult2);
+
         }
 
         public static void ArithmeticOperations()
