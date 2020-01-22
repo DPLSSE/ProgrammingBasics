@@ -11,7 +11,7 @@ namespace ProgrammingBasics
             //Variables();
             //Constants();
             //DataTypes();
-            //FloatingPointComparison();
+            FloatingPointComparison();
 
             //ArithmeticOperations();
             //OrderOfOperations();
@@ -97,6 +97,16 @@ namespace ProgrammingBasics
 
         public static void FloatingPointComparison()
         {
+            Console.WriteLine("*** PRECISION COMPARISON ***");
+            double dblDivision = 10.0 / 3;
+            decimal decDivision = 10.0m / 3;
+
+            // This examples displays the following:
+            // Double: dividing 10 by 3:  3.3333333333333335
+            // Decimal: dividing 10 by 3: 3.3333333333333333333333333333
+            Console.WriteLine("Double: dividing 10 by 3:  " + dblDivision);
+            Console.WriteLine("Decimal: dividing 10 by 3: " + decDivision);
+
             Console.WriteLine("*** DOUBLE APPROXIMATION ***");
             double dblValue = .1;
             double dblResult1 = dblValue * 10;
@@ -104,11 +114,11 @@ namespace ProgrammingBasics
             for (int ctr = 1; ctr <= 10; ctr++)
                 dblResult2 += dblValue;
 
-            // The example displays the following output:
+            // This examples displays the following:
             //       .1 * 10:           1
             //       .1 Added 10 times: 0.99999999999999989
-            Console.WriteLine(".1 * 10:           {0:R}", dblResult1);
-            Console.WriteLine(".1 Added 10 times: {0:R}", dblResult2);
+            Console.WriteLine(".1 * 10:           " + dblResult1);
+            Console.WriteLine(".1 Added 10 times: " + dblResult2);
 
             Console.WriteLine("*** DECIMAL PRECISION ***");
             decimal decValue = .1m;
@@ -117,11 +127,11 @@ namespace ProgrammingBasics
             for (int ctr = 1; ctr <= 10; ctr++)
                 decResult2 += decValue;
 
-            // The example displays the following output:
+            // This examples displays the following:
             //       .1 * 10:           1
             //       .1 Added 10 times: 1
-            Console.WriteLine(".1 * 10:           {0}", decResult1);
-            Console.WriteLine(".1 Added 10 times: {0}", decResult2);
+            Console.WriteLine(".1 * 10:           " + decResult1);
+            Console.WriteLine(".1 Added 10 times: " + decResult2);
 
         }
 
