@@ -13,7 +13,7 @@ namespace Exceptions
 
             #region Exception
 
-            //DivideByMe(0);
+            DivideByMe(0);
             
             #endregion
 
