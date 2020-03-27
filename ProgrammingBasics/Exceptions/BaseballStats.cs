@@ -8,7 +8,7 @@ namespace Exceptions
         {
         }
 
-        public decimal CalculateBattingAverage(int hits, int atBats)
+        public decimal CalculateBattingAverage(int hits, int walks, int atBats)
         {
             #region Checks
                 // Potential Exceptions
@@ -22,7 +22,7 @@ namespace Exceptions
             // Batting average is hits divided by at-bats
             decimal battingAverage = 0.000m;
 
-            battingAverage = hits / atBats;
+            battingAverage = hits / (atBats - walks);
 
             return battingAverage;
         }
